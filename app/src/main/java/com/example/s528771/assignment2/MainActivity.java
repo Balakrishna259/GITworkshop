@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         EditText E1 = (EditText) findViewById(R.id.editText);
         String s1 = E1.getText().toString()+"H";
         E1.setText(s1);
+e1.set();
 
     }
     public void fetch2(View v){
